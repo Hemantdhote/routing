@@ -6,6 +6,7 @@ const Bundels = () => {
   return (
     <div>
       <h1 className='font-bold'>bundels</h1>
+      <Outlet/>
        
 
       

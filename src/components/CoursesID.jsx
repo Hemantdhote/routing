@@ -2,12 +2,12 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 
 const CoursesID = () => {
-  const {coursesid}=useParams();
+  const {courseid}=useParams();
 
   return (
     <div>
 
-      <h1>this is {coursesid}</h1>
+      <h1>this is {courseid}</h1>
       
     </div>
   )
